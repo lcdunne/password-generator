@@ -12,7 +12,7 @@ The output will be a password with default settings for number of characters (16
 generated 1 :   9rUe(5.$W=Tp*2V(
 ```
 
-Alternatively we can pass arguments for number the of passwords to create (using flag `-n`) and length of each password (using flag `-len`):
+Alternatively we can pass arguments for the number (using flag `-n`) and length (using flag `-len`) of the passwords to create:
 ```
 $ python passgen.py -n 5 -len 32
 ```
