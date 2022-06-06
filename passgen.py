@@ -6,9 +6,7 @@ DEFAULT_LEN = 16
 DEFAULT_N = 1
 
 def gen_pass(fromstr, k=DEFAULT_LEN):
-    if k > len(fromstr):
-        return ''.join(random.choices(fromstr, k=k))
-    return ''.join(random.sample(fromstr, k=k))
+    return ''.join(random.choices(fromstr, k=k))
 
 def make_passwords(passlen=DEFAULT_LEN, passcount=DEFAULT_N):
     for i in range(passcount):
