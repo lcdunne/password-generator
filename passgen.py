@@ -1,7 +1,7 @@
 import random
 import argparse
 
-ALL_CHARS = 'abcdefghijklmnopqrstuvwxyz1234567890!"£$%^&*()-=[];#:@~,./<>?|'
+ALL_CHARS = 'abcdefghijklmnopqrstuvwxyz1234567890!£$%^&*()-=[];#:@~,./<>?|'
 CHARS = ''.join(set(ALL_CHARS + ALL_CHARS.upper())) # Get uppercases too
 DEFAULT_LEN = 16
 DEFAULT_N = 1
